@@ -1,0 +1,174 @@
+.Singlescreen {
+  position: relative; 
+  width: 390px;
+  height: 844px;
+  left: 257px;
+  top: 10px;
+  border-radius: 20px;
+  background: #000000;
+}
+
+.Rectangle {
+  position: absolute;
+  width: 285px;
+  height: 12px;
+  left: 50%; 
+  top: 62px; 
+  transform: translateX(-50%); 
+  background: #FF0000;
+  border-radius: 20px;
+}
+
+h3 {
+  position: absolute;
+  width: 204px;
+  height: 41px;
+  left: 55%;
+  top: 0%; 
+  transform: translate(-50% , -50%); 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #0057FF;
+}
+
+/* computer */
+.computer {
+  position: absolute;
+  width: 121px;
+  height: 177px;
+  left: 215px;
+  top: 108px;
+  background: #1263FF;
+  border-radius: 15px;
+}
+
+.Rectangle_computer {
+  position: absolute;
+  width: 80%;
+  height: 5px;
+  left: 50%; 
+  top: 60%; 
+  transform: translateX(-50% ); 
+  background: white;
+  border-radius: 20px;
+}
+
+/* you */
+.You {
+  position: absolute;
+  width: 121px;
+  height: 177px;
+  left: 54px;
+  top: 108px;
+  background: #EF5F5F;
+  border-radius: 15px;
+}
+
+.Rectangle_you {
+  position: absolute;
+  width: 80%;
+  height: 5px;
+  left: 50%; 
+  top: 60%; 
+  transform: translateX(-50% ); 
+  background: white;
+  border-radius: 20px;
+}
+
+h4 {
+  position: absolute;
+  left: 50%; 
+  top: 40%;
+  transform: translate(-50%, -50%); 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+}
+
+.X_up::before {
+  position: absolute;
+  left: 50%; 
+  top: 1000%;
+  transform: translate(-50%, -50%); 
+  content: "\274C"; 
+  font-size: 40px;
+}
+
+.O_up {
+  position: absolute;
+  left: 50%; 
+  top: 1000%; 
+  transform: translate(-50%, -50%); 
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%; 
+  background-color: transparent; 
+  border: 5px solid #00FFFF;
+}
+
+.grid_x_o {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: relative;
+  width: 344px;
+  height: 419px;
+  border-radius: 20px;
+  background-image: linear-gradient(180deg, #FF0000, #0080F6);
+  padding: 10px;
+  top: 350px; 
+  left: 15px;
+}
+
+
+.box {
+  position: relative;
+  width: 93px;
+  height: 103px;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+
+.X::before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  content: "\274C"; 
+  font-size: 40px;
+}
+
+.O {
+  position: absolute;
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%; 
+  background-color: transparent; 
+  border: 5px solid blue;
+}
+
+.O_image{
+  position: absolute;
+  left: 50%; 
+  top: -1000%; 
+  width: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%); 
+  
+}
+
+.X_image{
+    position: absolute;
+  left: 50%; 
+  top: -1000%; 
+  width: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%); 
+}
